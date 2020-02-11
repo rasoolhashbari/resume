@@ -1,0 +1,12 @@
+.post:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0.5rem 2rem #8691af;
+    opacity: 1;
+    
+}
+
+.post {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: transform .20s ease-out,opacity .20s ease-out,box-shadow .20s ease-out,-webkit-transform .20s ease-out;
+}
